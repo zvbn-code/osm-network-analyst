@@ -3,6 +3,9 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Ignore export subfolders and their contents
+out/
+
 # C extensions
 *.so
 
