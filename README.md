@@ -7,5 +7,5 @@ Ausschluss von ways, die für Straßen- oder Fußwegrouting irrelevant sind
 - standard gauge
 
 Berücksichtigung der Ebenen
-- level bei Indoor
-- layer bei Outdoor
+- level bei Indoor https://wiki.openstreetmap.org/wiki/Key:level
+- layer bei Outdoor https://wiki.openstreetmap.org/wiki/Key:layer
