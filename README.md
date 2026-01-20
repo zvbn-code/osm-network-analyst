@@ -9,3 +9,7 @@ Ausschluss von ways, die für Straßen- oder Fußwegrouting irrelevant sind
 Berücksichtigung der Ebenen
 - level bei Indoor https://wiki.openstreetmap.org/wiki/Key:level
 - layer bei Outdoor https://wiki.openstreetmap.org/wiki/Key:layer
+
+Verbesserung des Fußwegroutings bei Fußgängerzonen
+- Abbildungen in OSM highway=pedestrian und area=yes
+- https://uber.github.io/h3-py/api_quick.html
