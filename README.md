@@ -3,13 +3,13 @@ Nutzung Openstreetmap-Daten zur Erzeugung eines Routing Netzes für den ArcGIS P
 
 ## Ausschluss von ways, 
 - die für Straßen- oder Fußwegrouting irrelevant sind
- - track
- - tram
- - standard gauge
+    - track
+    - tram
+    - standard gauge
 
 - nur für Fußweg
- - trunk
- - motorway
+    - trunk
+    - motorway
 
 ## Berücksichtigung der Ebenen
 - level bei Indoor https://wiki.openstreetmap.org/wiki/Key:level
