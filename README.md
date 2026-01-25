@@ -23,4 +23,5 @@ Nutzung Openstreetmap-Daten zur Erzeugung eines Routing Netzes für den ArcGIS P
 - https://uber.github.io/h3-py/api_quick.html
 
 ## Berücksichtung von Strecken, die nur für den ÖPNV befahrbar sind
-- service 
+- highway=service in Kombination mit access=no und bus=yes
+- Darstellung von Busspuren bus:lanes lanes:bus lanes:psv 
