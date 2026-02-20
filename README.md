@@ -5,13 +5,17 @@ Nutzung Openstreetmap-Daten zur Erzeugung eines Routingnetzes für den ArcGIS Pr
 
 ## Ausschluss von ways, 
 - die für Straßen- oder Fußwegrouting irrelevant sind
-    - track
-    - tram
-    - standard gauge
+    - highway:construction
+    - highway:proposed
+    - highway:bridleway
+    - highway:raceway
+    - highway:rest_area
+    - highway:services
 
 - Auchluss nur für Fußwegrouting
-    - trunk
-    - motorway
+    - highway:trunk
+    - highway:motorway
+    - highway:motorway_link
 
 ## Berücksichtigung der Ebenen aus OSM
 - level bei Indoor https://wiki.openstreetmap.org/wiki/Key:level
