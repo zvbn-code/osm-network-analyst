@@ -31,3 +31,6 @@ Nutzung Openstreetmap-Daten zur Erzeugung eines Routingnetzes für den ArcGIS Pr
 ## Berücksichtung von Strecken für das ÖV-Routing, die nur für den ÖPNV befahrbar sind
 - highway=service in Kombination mit access=no und bus=yes
 - Darstellung von Busspuren bus:lanes lanes:bus lanes:psv 
+
+## Steuerdatei für Sperrung Strecken für Fuß / Bus und Geschwindigkeiten Bus
+- [Parameter Routing](./highway_classify.csv)
