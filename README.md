@@ -3,6 +3,9 @@ Nutzung Openstreetmap-Daten zur Erzeugung eines Routingnetzes für den ArcGIS Pr
 - Fußwegrouting als Bestandteil des ÖPNV-Routing https://pro.arcgis.com/en/pro-app/latest/help/analysis/networks/transit-data-model.htm
 - Straßenrouting insbesondere Busrouting Vehicle Routing Problem 
 
+## Einlesen der Daten nach DuckDB
+- [How to Read OSM Data with DuckDB](https://medium.com/data-science/how-to-read-osm-data-with-duckdb-ffeb15197390)
+
 ## Ausschluss von ways, 
 - die für Straßen- oder Fußwegrouting irrelevant sind
     - highway:construction
@@ -33,4 +36,10 @@ Nutzung Openstreetmap-Daten zur Erzeugung eines Routingnetzes für den ArcGIS Pr
 - Darstellung von Busspuren bus:lanes lanes:bus lanes:psv 
 
 ## Steuerdatei für Sperrung Strecken für Fuß / Bus und Geschwindigkeiten Bus
+- Struktur
+  - Key:Highway
+  - count (nur informativ)
+  - Sperrung Bus (bus_allowed)
+  - Sperrung Fuß (foot_allowed)
+
 - [Parameter Routing](./highway_classify.csv)

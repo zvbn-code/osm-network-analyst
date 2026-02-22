@@ -22,6 +22,6 @@ secondary_link,82,0,False,False
 primary_link,69,0,False,False
 tertiary_link,32,0,False,False
 elevator,28,0,False,False
+road,1,0,False,False
 bus_stop,1,0,False,False
 busway,1,0,False,False
-road,1,0,False,False
