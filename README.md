@@ -39,7 +39,7 @@ Nutzung Openstreetmap-Daten zur Erzeugung eines Routingnetzes für den ArcGIS Pr
 - Struktur
   - Key:Highway
   - count (nur informativ)
-  - Geschwindigkeit Bus (bus_speed)
+  - Geschwindigkeit Bus (bus_speed) bisher nur eine Geschwindigkeit ohne Differenzierung inner-/außerorts
   - Sperrung Bus (bus_allowed)
   - Sperrung Fuß (foot_allowed)
 
