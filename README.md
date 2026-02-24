@@ -19,11 +19,14 @@ Nutzung Openstreetmap-Daten zur Erzeugung eines Routingnetzes für den ArcGIS Pr
     - highway:trunk
     - highway:motorway
     - highway:motorway_link
+    - foot:no
 
 ## Berücksichtigung der Ebenen aus OSM
 - level bei Indoor https://wiki.openstreetmap.org/wiki/Key:level
 - layer bei Outdoor https://wiki.openstreetmap.org/wiki/Key:layer
 - zusätzliche Zwischenpunkte (vertices) in NA-Network nur bei gleiche Ebene (level/layer)
+- Bildung eines gemeinsamen Elevation für Abbildung in NA
+  - allerdings sehr unterschiedliche Abbildung z.B. bei Treppen 0;1
 
 ## Verbesserung des Fußwegroutings bei Fußgängerzonen
 - Abbildungen in OSM highway=pedestrian und area=yes

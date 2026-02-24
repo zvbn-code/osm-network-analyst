@@ -1,5 +1,5 @@
 highway,count,bus_speed,bus_allowed,foot_allowed,bus
-service,24371,0,False,False,False
+service,24375,0,False,False,False
 footway,13269,0,False,False,False
 path,12437,0,False,False,False
 residential,8080,0,False,False,False
@@ -20,8 +20,8 @@ trunk_link,242,0,False,False,False
 corridor,96,0,False,False,False
 secondary_link,82,0,False,False,False
 primary_link,69,0,False,False,False
-tertiary_link,32,0,False,False,False
+tertiary_link,34,0,False,False,False
 elevator,28,0,False,False,False
-busway,1,0,False,False,False
-road,1,0,False,False,False
 bus_stop,1,0,False,False,False
+road,1,0,False,False,False
+busway,1,0,False,False,False
