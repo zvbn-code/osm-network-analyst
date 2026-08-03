@@ -5,6 +5,7 @@ Nutzung Openstreetmap-Daten zur Erzeugung eines Routingnetzes für den ArcGIS Pr
 
 ## Einlesen der Daten nach DuckDB
 - [How to Read OSM Data with DuckDB](https://medium.com/data-science/how-to-read-osm-data-with-duckdb-ffeb15197390)
+- [DuckDB osmium extension](https://github.com/jake-low/duckdb-osmium)
 
 ## Ausschluss von ways, 
 - die für Straßen- oder Fußwegrouting irrelevant sind
